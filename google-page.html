@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Sign up Page</title>
+    <style>
+        .main-container {
+            width: 691px;
+            padding: 43px;
+            margin-left: 279px;
+            height: 100%;
+        }
+
+        .google-logo {
+            height: 50px;
+        }
+
+        .box {
+            margin-top: 10px;
+            width: 24px;
+        }
+
+        .main-body {
+            margin-top: 10px;
+            border: 1px solid;
+            width: 342px;
+            cursor: pointer;
+            border-radius: 2px;
+
+        }
+
+        .inputBtn {
+            border: none;
+            outline: none;
+        }
+
+        .div1 {
+            display: flex;
+        }
+
+        .inputBtn2 {
+            border: none;
+            outline: none;
+            text-align: end;
+            margin: 0%;
+            pointer-events: none;
+
+        }
+
+        .userButton {
+            margin-top: 10px;
+            color: #4688f1;
+            border: none;
+            padding: 5px;
+        }
+
+        .userButton:hover {
+            opacity: 0.8;
+            border-radius: 3px;
+        }
+
+        .side-image {
+            position: relative;
+            left: 415px;
+            bottom: 400px;
+            height: 630px;
+            width: 238px;
+        }
+        .passwordbox{
+            margin-top: 5px;
+        }
+        .ps{
+            padding: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <main class="main-container">
+        <img class="google-logo" src="https://gdb.voanews.com/3AA053B8-4A26-49F0-B7FD-DE7405656405_w650_r1_s.jpg"
+            alt="Something went wroung">
+        <form action="">
+            <h2>Create your Google Account</h2>
+
+            <input type="text" placeholder="First name">
+            <input type="text" placeholder="Last Name" name="" id="">
+            <section>
+                <div class="main-body">
+                    <div class="div1">
+                        <input class="inputBtn" type="email" placeholder="sample@gmail.com" name="" id="">
+                        <input class="inputBtn2" type="text" value="@gmail.com" name="" id="">
+                    </div>
+                </div>
+                <button class="userButton">User My Current email address instead</button>
+                <section class="passwordbox">
+                    <input class="ps" type="password" placeholder="Password">
+                    <input class="ps" type="text" placeholder="Confirm" name="" id="">
+                </section>
+                <p style="">User 8 more characters with a mix of letter, number & symbols</p>
+                <input class="box" type="checkbox" name="" id="">
+                <p>Show Password</p>
+
+                <button class="blueButton">Sign in instead</button>
+                <button class="emphasized">Next</button>
+            </section>
+            <section class="side-image">
+                <img src="https://ssl.gstatic.com/accounts/signup/glif/account.svg" alt="Not Loaded">
+            </section>
+        </form>
+    </main>
+</body>
+
+</html>

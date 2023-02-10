@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>function will click on the second click</title>
+</head>
+<body>
+    <button onclick="onFirstClick()">First click</button>
+</body>
+<script>
+    let counter = 0;
+    function onFirstClick(){
+        if(counter === 0){
+            counter++;
+            return
+        }
+        console.log("Now your function will run");
+    }
+</script>
+</html>
